@@ -14,4 +14,6 @@
 Auth::routes();
 
 Route::get('/', 'DaerahController@index');
-Route::resource('daerah', 'DaerahController');
+Route::get('/daerah/kabupatenkota/{provinsi}', 'DaerahController@kabupatenkota');
+Route::get('/daerah/kecamatan/{provinsi}/{kabupatenkota}', 'DaerahController@kecamatan');
+Route::get('/daerah/kelurahan/{provinsi}/{kabupatenkota}/{kecamatan}', 'DaerahController@kelurahan');
