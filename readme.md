@@ -7,4 +7,4 @@
 - php artisan migrate and use daerah.sql
 
 ## Screenshot
-![Form Daerah](https://github.com/mahmudinm/laravel-example_form_daerah/raw/master/SCREENSHOT/example.gif)
+![Form Daerah](https://github.com/mahmudinm/laravel_example_ajax_form_daerah/raw/master/SCREENSHOT/example.gif)
